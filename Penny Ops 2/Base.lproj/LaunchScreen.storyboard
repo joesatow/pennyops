@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="v19-pla-29-mockups.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hmr-fH-7CQ">
+                                <rect key="frame" x="125" y="273.5" width="125" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="4JX-9i-4hV"/>
+                                    <constraint firstAttribute="width" constant="125" id="TM2-Jw-d4u"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hmr-fH-7CQ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="0e4-oT-S7S"/>
+                            <constraint firstItem="hmr-fH-7CQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="PL1-06-ffv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="v19-pla-29-mockups.jpg" width="4676" height="4675"/>
+    </resources>
+</document>

@@ -1,0 +1,18 @@
+PODS:
+  - RappleProgressHUD (2.4.1)
+  - SpreadsheetView (0.8.4)
+  - SwiftRangeSlider (2.0.0)
+
+DEPENDENCIES:
+  - RappleProgressHUD (= 2.4.1)
+  - SpreadsheetView
+  - SwiftRangeSlider
+
+SPEC CHECKSUMS:
+  RappleProgressHUD: 1d97178abc04ea9e89e4df74227064ded389ce24
+  SpreadsheetView: 17c55b6dc82099993cc2ceb818248d19f3220998
+  SwiftRangeSlider: f86e3b637c961120158fa1a89277c8343845cbe4
+
+PODFILE CHECKSUM: cef33bbd476e0972ca8502f29fed995c5b42cdcb
+
+COCOAPODS: 1.2.0

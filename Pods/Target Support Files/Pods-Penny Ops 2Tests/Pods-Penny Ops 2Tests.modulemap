@@ -1,0 +1,6 @@
+framework module Pods_Penny_Ops_2Tests {
+  umbrella header "Pods-Penny Ops 2Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
